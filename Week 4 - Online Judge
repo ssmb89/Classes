@@ -3,7 +3,7 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "name": "online_judge_dmoj.ipynb",
+      "name": "Week 4- online_judge_dmoj.ipynb",
       "provenance": [],
       "include_colab_link": true
     },
@@ -85,7 +85,98 @@
       },
       "outputs": [],
       "source": [
-        ""
+        "dir(str)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "help(str)"
+      ],
+      "metadata": {
+        "id": "GTi5-h-vywF3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "message = \"Hello World\"\n",
+        "message.count(\"l\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DyMdSP5LzuiE",
+        "outputId": "6dcb87cc-58b4-4399-dcc7-a028af9ea32d"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "1"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "message.count(\" \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6Yjld2D32M0S",
+        "outputId": "c38f5a70-f093-4b23-a215-c74717eca77a"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "1"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Code Submitted to DMOJ\n",
+        "line = input()\n",
+        "total_words = line.count(\" \") + 1\n",
+        "print(total_words)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jRuVr2JE3ZIE",
+        "outputId": "ea730c68-5b70-468f-ecb6-40f123e3dbc7"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World\n",
+            "2\n"
+          ]
+        }
       ]
     },
     {
